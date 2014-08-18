@@ -39,15 +39,31 @@
 *** Redigere artikler / guides - 10 min
 **** mapdown-greiene
 **** Fenced code blocks m/highlighting
+**** Inline examples
 **** Tabs
 **** Sekvensdiagrammer
 **** Relevant endpoints, Relevant types
-**** Inline examples
 **** Table of Contents
 **** Add header ids
 
 *** Redigere kode-eksempler fra working examples - 3 min
 *** Redigere endepunkter - 10 min
+
+        <section>
+          <section data-background="images/endpoint-sources-1.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-2.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-3.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-4.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-5.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-6.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-7.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-8.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-9.png" data-background-transition="none"></section>
+          <section data-background="images/endpoint-sources-1.png" data-background-transition="none"></section>
+        </section>
+
+
+
 **** Routes-fila
 **** Endepunktfiler
 **** Sample responses
