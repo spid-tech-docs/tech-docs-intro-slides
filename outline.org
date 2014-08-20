@@ -42,7 +42,7 @@
 **** Inline examples
 **** Tabs
 **** Sekvensdiagrammer
-**** Relevant endpoints, Relevant types
+**** Relevant endpoints
 **** Table of Contents
 **** Add header ids
 
