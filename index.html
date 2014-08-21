@@ -19,6 +19,8 @@
       .faded {opacity: 0.3;}
 
       pre code {background: #000 !important;}
+
+      .unborder {border: none !important;}
     </style>
 
     <!-- For syntax highlighting -->
@@ -264,7 +266,7 @@
 
   <spid-toc></spid-toc>
 
-</code></pre>
+  </code></pre>
 
   <div class="fragment">
     <h2>&#11015;</h2>
@@ -307,7 +309,7 @@
 
     Excerpt from <code>LoginController.java</code>:
 
-    <img src="images/articles/java-code.png"></div>
+    <img class="unborder" src="images/articles/java-code.png"></div>
 </section>
 
 <section>
@@ -316,19 +318,87 @@
 
 </section>
 
-        <section>
-          <section data-background="images/endpoints/sources-1.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-2.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-3.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-4.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-5.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-6.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-7.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-8.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-9.png" data-background-transition="none"></section>
-          <section data-background="images/endpoints/sources-1.png" data-background-transition="none"></section>
-        </section>
+<section>
+  <section data-background="images/endpoints/sources-1.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-2.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-3.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-4.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-5.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-6.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-7.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-8.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-9.png" data-background-transition="none"></section>
+  <section data-background="images/endpoints/sources-1.png" data-background-transition="none"></section>
+</section>
 
+<section>
+
+  <h2>Editing routes-file</h2>
+
+  <pre class="fragment code"><code>
+  ./import-endpoints.sh
+
+</code></pre>
+
+  <img class="fragment unborder" src="images/endpoints/import.png">
+
+</section>
+
+<section>
+  <h2>Editing endpoints-files</h2>
+  <code>tech-docs/resources/endpoints/</code>
+</section>
+
+<section>
+  <pre class="code"><code>
+  :introduction
+
+  Markdown goes here
+
+</code></pre>
+
+  <p>Supports relevant features of articles:</p>
+
+  <ul>
+    <li class="fragment">Markdown</li>
+    <li class="fragment">Code highlighting</li>
+    <li class="fragment">Inline code from working examples</li>
+    <li class="fragment">Tabs</li>
+    <li class="fragment">Sequence diagrams</li>
+  </ul>
+
+</section>
+
+<section>
+  <pre class="code"><code>
+  :relevant-types order user
+
+  :relevant-endpoints
+
+  GET /status
+  POST /user
+
+</code></pre>
+  <div class="fragment">
+    <h2>&#11015;</h2>
+    <img src="images/endpoints/relevant.png">
+  </div>
+</section>
+
+<section>
+  <pre class="code"><code>
+  :introduction
+
+  Get verification and availability status for an email address. Note
+  that the email should be base64 encoded.
+
+  :example-params
+
+  email: am9obkBkb2UuY29t
+
+</code></pre>
+
+</section>
 
 </div>
 
